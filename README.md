@@ -65,11 +65,11 @@ $ curl http://127.0.0.1:5000/api/v0.1/<string:username>/stargazers
 ## Tests
 To run tests:
 
-open new command prompt
+* Open new command prompt
 
-install virtual environment and required dependencies
+* Install virtual environment and required dependencies
 
-run tests
+* Run tests
 ```bash
 pytest tests/conftest.py
 ```
