@@ -1,0 +1,4 @@
+Flask==1.1.2
+setuptools>=48.0.0
+requests>=2.25.0
+pytest>=6.2.0
