@@ -53,15 +53,26 @@ This starts the application and can be viewed from the following URL: http://loc
 open new command prompt
 make curl request in command prompt
 ```bash
-$ curl http://127.0.0.1:5000/api/v1.0/<string:username>/repos
+$ curl http://127.0.0.1:5000/api/v0.1/<string:username>/repos
 ```
 4. Returning the sum of stars in all repositories
 open new command prompt
 make curl request in command prompt
 ```bash
-$ curl http://127.0.0.1:5000/api/v1.0/<string:username>/stargazers
+$ curl http://127.0.0.1:5000/api/v0.1/<string:username>/stargazers
 ```
+
+## Tests
+To run tests:
+open new command prompt
+install virtual environment and required dependencies
+run tests
+```bash
+pytest tests/conftest.py
+```
+
 ## Future development
 
-Напиши про то, что хорошо бы сделать докер контейнер, где будет этот сервер сидеть и откуда он будет работать
+The best solution for further development of the application would be to put it in a docker container,
+so the flexibility, speed and scalability of the project will increase
 
